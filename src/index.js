@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 connectDB();
 
 app.use(cors({
-  origin: 'https://agrismart-frontend-deployment.vercel.app', // React frontend origin
+  origin: 'https://krishi-connect-frontend-nu.vercel.app/', // React frontend origin
   credentials: true
 }));
 app.use(express.json());
