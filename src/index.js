@@ -19,7 +19,8 @@ connectDB();
 // CORS setup for multiple allowed origins
 const allowedOrigins = [
   'https://krishi-connect-frontend-nu.vercel.app',
-  'https://agrismart-frontend-deployment.vercel.app'
+  'https://agrismart-frontend-deployment.vercel.app',
+  'http://localhost:8080/'
 ];
 
 app.use(cors({
